@@ -7,7 +7,10 @@ export async function POST(request: Request) {
     await dbConnect()
 
     try {
+        // console.log('here1')
         const {username, email, password} = await request.json()
+        // console.log(username, email, password)
+
         const existingUserVerifiedByUsername = await UserModel.findOne({
             username,
             isVerified: true
@@ -53,7 +56,8 @@ export async function POST(request: Request) {
                 isAcceptingMessages: true,
                 messages: []
             })
-
+            // console.log('here2')
+            // console.log(newUser)
             await newUser.save()
         }
 
