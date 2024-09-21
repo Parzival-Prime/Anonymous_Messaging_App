@@ -41,7 +41,7 @@ export default function VerificationEmail({ username, otp }: VerificationEmailPr
                         </Text>
                     </Row>
                     <Row>
-                        <Text>{otp}</Text>
+                        <Text><b>{otp}</b></Text>
                     </Row>
                     <Row>
                         <Text>
