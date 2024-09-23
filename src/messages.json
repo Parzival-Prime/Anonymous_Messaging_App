@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Messages from User123",
+        "content": "Hey, how are you doing today?",
+        "received": "10 minutes ago"
+    },
+    {
+        "title": "Messages from SecretAdmirer",
+        "content": "I really liked you recent post!",
+        "received": "2 hours ago"
+    },
+    {
+        "title": "Message from mysteryGuest",
+        "content": "Do you have any book recommendations?",
+        "received": "1 day ago"
+    },
+    {
+        "title": "Message from mysteryGuest",
+        "content": "Do you have any book recommendations?",
+        "received": "1 day ago"
+    },
+    {
+        "title": "Message from mysteryGuest",
+        "content": "Do you have any book recommendations?",
+        "received": "1 day ago"
+    },
+    {
+        "title": "Message from mysteryGuest",
+        "content": "Do you have any book recommendations?",
+        "received": "1 day ago"
+    },
+    {
+        "title": "Message from mysteryGuest",
+        "content": "Do you have any book recommendations?",
+        "received": "1 day ago"
+    }
+]
